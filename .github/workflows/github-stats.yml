@@ -2,6 +2,7 @@ on:
   schedule:
   # 30 mins past the hour
     - cron: "* * * * *"
+  workflow_dispatch:
     
 jobs:
   # This workflow contains a single job called "traffic"
